@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This LevelPro Page</title>
+</head>
+<body>
+
+    <!-- Ordered & UnOrdered List Items -->
+    <p>WeekDays Ordered List Items :</p>
+        <ol> <!-- Order List-->
+            <li>Sunday</li> <!--List Items-->
+            <li>Monday</li>
+            <li>Tuesday</li>
+            <li>Wednsday</li>
+            <li>Thursday</li>
+            <li>Friday</li>
+                <ol>
+                    <li>Rest</li>
+                    <li>Go to Gym</li>
+                </ol>
+            <li>Saturday</li>
+                <ul>
+                    <li>Goto hair cutting</li>
+                    <li>Personal errorands</li>
+                </ul>
+        </ol>
+        
+        <p>WeekDays unOrdered List Items :</p>
+        <ul><!-- UnOrder List-->
+            <li>Thursday</li><!-- Order List-->
+            <li>Saturday</li>
+            <li>Sunday</li>
+                <ol>
+                    <li>Rest</li>
+                    <li>Go to Gym</li>
+                </ol>
+            <li>Tuesday</li>
+            <li>Wednsday</li>
+            <li>Monday</li>
+                <ul>
+                    <li>Goto hair cutting</li>
+                        <ul>
+                            <li>Zero sallon</li>
+                        </ul>
+                    <li>Personal errorands</li>
+                </ul>
+            <li>Friday</li>
+        </ol>
+        <br>
+        <hr>
+
+        <h2>Table</h2>
+        <!-- Table Content
+            tr - row
+            th - heading
+            td - data -->
+
+        <table>
+
+            <caption>Student Data Table</caption> <!--Caption of the table-->
+            <thead> <!-- Table Heading -->
+                <tr>
+                    <th>Name</th>
+                    <th>Roll No</th>
+                    <th colspan="2"> <!--colspan is used to merge the n cloumns & show a heading for them-->
+                        Result
+                    </th> 
+                </tr>
+            </thead>
+            <tbody> <!--Table Body-->
+                <tr>
+                    <td>Akash</td>
+                    <td>846363</td>
+                    <td>80</td>
+                    <td>80%</td>
+                </tr>
+                <tr>
+                    <td>Shubham</td>
+                    <td>446363</td>
+                    <td>90</td>
+                    <td>90%</td>
+                </tr>
+            </tbody>
+        </table>
+        <hr>
+
+        <h2>$$$$$$$ Form In HTML $$$$$$$$$</h2>
+        <!--Forms are used to collect data from the user Eg- sign up/login/help requests/contact me-->
+
+        <form action="/action.php">
+            <!--Content-->
+            <input type="text" placeholder="Username"> <br>
+            <input type="text" placeholder="Password"> <br> <br>
+
+            Gender : <br>
+            <!-- Lables provides the label element's labeled control
+                value : for the disable people. -->
+            <label for="100">
+                <input type="radio" value="Male" name="shared" id="100"> Male <br>
+            </label>
+
+            <label for="101">
+                <input type="radio" value="Female" name="shared" id="101"> Female <br>
+            </label>
+            
+            <label for="102">
+                <input type="radio" value="Other" name="shared" id="102"> Other
+            </label>
+        </form>
+        <hr>
+
+        <h2>##### Class & Ids ####</h2>
+        <!--Each class contain multiple Ids & each class can have diff no of the ids-->
+
+        <div class="Group1" id="G1_Stud1">
+            <p>Group1 Student No 1</p>
+        </div>
+
+        <div class="Group1" id="G1_Stud2">
+            <p>Group1 Student No 2</p>
+        </div>
+
+        <div class="Group2" id="G2_Stud1">
+            <p>Group2 Student No 1</p>
+        </div>
+
+        <div class="Group2" id="G2_Stud2">
+            <p>Group2 Student No 2</p>
+        </div>
+        <hr>
+
+        <h2>##### Checkbox #####</h2>
+
+        <label for="maths">
+            <input type="checkbox" value="maths" name="subject" id="101"> Mathematics <br>
+        </label>
+        
+        <label for="english">
+            <input type="checkbox" value="English" name="subject" id="102"> English <br>
+        </label>
+
+        <label>
+            <input type="checkbox" value="Physics" name="subject" id="103"> Physics <br>
+        </label>
+        <hr>
+
+        <!-- Select Tag to select the options from the the muliple options -->
+        <h2>Select Tag:</h2>
+        <select name="gender" id="1003">
+            <option>Select the option</option>
+            <option>Male</option>
+            <option>Female</option>
+            <option>Other</option>
+        </select>
+        <hr>
+
+        <h2>TextArea</h2>
+
+        <textarea name="feedback" id="1001" placeholder="Pls provide your valuable feedback" rows="5" cols="35"></textarea>
+        <hr>
+
+        <input type="submit" name="submit">
+        <hr>
+
+        <h2>#### IFrame Tag to show website inside website ####</h2>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/HcOc7P5BMi4?si=cYR_clB_SKXo0Ir_" 
+            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+            encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"
+             allowfullscreen></iframe> 
+        <br> <br>
+
+        <iframe width="1260" height="415" src="https://en.wikipedia.org/wiki/India" allowfullscreen></iframe><hr>
+        <hr>
+
+        <h2>Video Tag</h2>
+        <video src="/Source/flower.mp4" width="560" height="315" controls loop> Myvideo</video>
+
+</body>
+
+<footer>
+    <br> <br> Pls contact us on the helpdesk@gmail.com. <br>
+</footer>
+</html>
