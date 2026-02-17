@@ -89,24 +89,24 @@
         <h2>$$$$$$$ Form In HTML $$$$$$$$$</h2>
         <!--Forms are used to collect data from the user Eg- sign up/login/help requests/contact me-->
 
-        <form action="/action.php">
+        <form>
             <!--Content-->
             <input type="text" placeholder="Username"> <br>
             <input type="text" placeholder="Password"> <br> <br>
 
             Gender : <br>
             <!-- Lables provides the label element's labeled control
-                value : for the disable people. -->
-            <label for="100">
-                <input type="radio" value="Male" name="shared" id="100"> Male <br>
+                value : for the disable people. name is shared between all options -->
+            <label>
+                <input type="radio" value="Male" name="shared"> Male <br>
             </label>
 
-            <label for="101">
-                <input type="radio" value="Female" name="shared" id="101"> Female <br>
+            <label>
+                <input type="radio" value="Female" name="shared"> Female <br>
             </label>
             
-            <label for="102">
-                <input type="radio" value="Other" name="shared" id="102"> Other
+            <label>
+                <input type="radio" value="Other" name="shared"> Other
             </label>
         </form>
         <hr>
@@ -158,7 +158,7 @@
 
         <h2>TextArea</h2>
 
-        <textarea name="feedback" id="1001" placeholder="Pls provide your valuable feedback" rows="5" cols="35"></textarea>
+        <textarea name="feedback" placeholder="Pls provide your valuable feedback" rows="5" cols="35"></textarea>
         <hr>
 
         <input type="submit" name="submit">

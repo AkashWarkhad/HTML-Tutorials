@@ -23,16 +23,23 @@
     <p>Sample paragraph Sample paragraph Sample paragraph Sample paragraphSample paragraph Sample paragraph Sample paragraph Sample paragraph Sample paragraph </p>
     
     <!-- Anchor tag for absolute & relative links -->
-    <a href="https://www.google.com/">Google</a>
+
+    <!-- Target will open the link in new window & 
+     rel noopener = Open in a new tab, but DO NOT give the new page access to the original page.
+     noreferrer = hides the referral information (the new site won't know where the user came from) -->
+
+    <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">Google</a>
     <br>
     <br>
+
     <a href="https://code.visualstudio.com/download">Download VS Code</a>
     <br><br>
 
-    <a href="/HelloFolder/Hello.html" target="_main" alt="Hello.html">
+    <a href="/HelloFolder/Hello.html" target="_blank" alt="Hello.html">
         Goto <b>My Hello Page</b> File 
     </a>
     <br><br>
+
     <a href="/LevelPro.html" target="_main" alt="LevelPro.html">
         <strong>Go to LevelPro Page</strong>
     </a>
